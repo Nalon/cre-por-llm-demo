@@ -7,8 +7,8 @@ Walking through the workflow, step by step!
 ### Clone this repo
 
 ```bash
-git clone _
-cd _
+git clone https://github.com/Nalon/cre-por-llm-demo.git
+cd cre-por-llm-demo
 bun install --cwd ./por
 ```
 

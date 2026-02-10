@@ -13,8 +13,41 @@ See [main.ts for workflow code](/por/main.ts).
 - **ETH on ETH Sepolia**
 - **Gemini LLM API key** - [Get from Google AI Studio](https://aistudio.google.com/app/apikey)
 
+## Testing
+
+### Clone this repo
+
+```bash
+git clone https://github.com/Nalon/cre-por-llm-demo.git
+cd cre-por-llm-demo
+bun install --cwd ./por
+```
+
+### Configure `.env` values
+
+```bash
+cp .env.sample .env
+```
+
+Within the new `.env` file, set your private key and gemini api key accordingly.
+
+### Simulate the workflow
+
+Simulate without broadcasting an on-chain transaction:
+```bash
+cre workflow simulate por
+```
+
+Simulate with broadcast:
+```bash
+cre workflow simulate por --broadcast
+```
+
 ## Workshop
 
 [Chapter 1 - CRE CLI Setup](/workshop/chapter-1.md)
+
 [Chapter 2 - CRE Basics](/workshop/chapter-2.md)
+
 [Chapter 3 - PoR Demo](/workshop/chapter-3.md)
+
