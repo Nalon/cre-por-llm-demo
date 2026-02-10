@@ -1,0 +1,13 @@
+{
+  "schedule": "0 0 0 * * *",
+  "porUrl": "https://api.real-time-reserves.verinumus.io/v1/chainlink/proof-of-reserves/TrueUSD",
+  "geminiModel": "gemini-2.5-flash",
+  "evms": [
+    {
+      "tokenAddress": "0x41f77d6aa3F8C8113Bc95831490D5206c5d1cFeE",
+      "porAddress": "0x93F212a3634D6259cF38cfad4AA4A3485C3d7D59",
+      "chainSelectorName": "ethereum-testnet-sepolia",
+      "gasLimit": "1000000"
+    }
+  ]
+}

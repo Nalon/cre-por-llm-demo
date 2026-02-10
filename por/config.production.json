@@ -1,0 +1,13 @@
+{
+  "schedule": "",
+  "porUrl": "",
+  "geminiModel": "",
+  "evms": [
+    {
+      "tokenAddress": "",
+      "porAddress": "",
+      "chainSelectorName": "",
+      "gasLimit": ""
+    }
+  ]
+}
